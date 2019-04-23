@@ -63,6 +63,13 @@
         }
     ],
     "packageAliases": {
-        
+        "core": "0Hof4000000TN6ACAW",
+        "core@0.1.0-1": "04tf4000003RNX0AAO",
+        "logic": "0Hof4000000TN6FCAW",
+        "logic@0.1.0-1": "04tf4000003RNX5AAO",
+        "ui": "0Hof4000000TN6KCAW",
+        "ui@0.1.0-1": "04tf4000003RNXAAA4",
+        "security": "0Hof4000000TN6PCAW",
+        "security@0.1.0-1": "04tf4000003RNXFAA4"
     }
 }

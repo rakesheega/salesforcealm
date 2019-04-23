@@ -1,25 +1,24 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
             "c/auraPubsub": [
-                "auraPubsub/auraPubsub.js"
+                "../../../../core/main/default/lwc/auraPubsub/auraPubsub.js"
             ],
             "c/brokerCard": [
-                "brokerCard/brokerCard.js"
+                "../../../../core/main/default/lwc/brokerCard/brokerCard.js"
             ],
             "c/daysOnMarket": [
-                "daysOnMarket/daysOnMarket.js"
+                "../../../../core/main/default/lwc/daysOnMarket/daysOnMarket.js"
             ],
             "c/inlineMessage": [
-                "inlineMessage/inlineMessage.js"
+                "../../../../core/main/default/lwc/inlineMessage/inlineMessage.js"
             ],
             "c/ldsUtils": [
-                "ldsUtils/ldsUtils.js"
+                "../../../../core/main/default/lwc/ldsUtils/ldsUtils.js"
             ],
             "c/pubsub": [
-                "pubsub/pubsub.js"
+                "../../../../core/main/default/lwc/pubsub/pubsub.js"
             ],
             "c/paginator": [
                 "../../../../ui/main/default/lwc/paginator/paginator.js"
@@ -46,14 +45,5 @@
                 "../../../../ui/main/default/lwc/propertyMap/propertyMap.js"
             ]
         }
-    },
-    "include": [
-        "**/*",
-        "../../../../.sfdx/typings/lwc/**/*.d.ts"
-    ],
-    "typeAcquisition": {
-        "include": [
-            "jest"
-        ]
     }
 }
